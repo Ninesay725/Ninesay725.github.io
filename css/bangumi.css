@@ -1,0 +1,18 @@
+.bangumi-item {
+  margin-bottom: 20px;
+}
+.bangumi-picture {
+  max-width: 100%;
+  height: auto;
+}
+.bangumi-info {
+  margin-top: 10px;
+}
+.bangumi-title {
+  font-weight: bold;
+}
+.bangumi-status,
+.bangumi-progress {
+  font-size: 0.9em;
+  color: #666;
+}
