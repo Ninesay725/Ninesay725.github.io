@@ -24,6 +24,7 @@ menu:
   About: about/
   # Contact: contact/
   Archives: archives/
+  Anime: anime/
 
 # 侧边栏
 aside:
@@ -144,6 +145,7 @@ mathjax:
 
 # 在 `<head>` 标签内引入 CSS 样式表
 stylesheets:
-
+  - /css/bangumi.css
 # 在 `<body>` 尾部引入 JavaScript 脚本
 scripts:
+  - /js/bangumi.js
