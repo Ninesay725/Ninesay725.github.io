@@ -63,7 +63,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/Sparkle_Avatar2.jpg
+  img: https://Ninesay725.github.io/picx-images-hosting/Sparkle_Avatar2.2rv4pasith.jpg
   effect: false
 
 # Disable all banner images
@@ -73,7 +73,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img: img/Sparkle1.jpg
+index_img: https://Ninesay725.github.io/picx-images-hosting/Sparkle1.64dujo936d.jpg
 
 # The banner image of archive page
 archive_img:
@@ -95,11 +95,11 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: url(https://Ninesay725.github.io/picx-images-hosting/Penacony2.9rje774vnn.jpg)
 
 # Website Background
 # Can set it to color or image url
-background: img/Penacony2.jpg
+background: https://Ninesay725.github.io/picx-images-hosting/Penacony.54xr6i6bzf.jpg
 
 cover:
   # Disable the cover or not
