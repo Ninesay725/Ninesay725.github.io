@@ -105,3 +105,23 @@ deploy:
   type: git
   repo: https://github.com/Ninesay725/Ninesay725.github.io.git
   branch: master
+
+markdown:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'
+
+algolia:
+  appId: "9114G5SWSC"
+  apiKey: "ecb56220af4aad41f9ddaf944ca5ec22"
+  adminApiKey: "eff2323a69febab8d4c77b58f23c30f9"
+  chunkSize: 5000
+  indexName: "my-hexo-blog"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
