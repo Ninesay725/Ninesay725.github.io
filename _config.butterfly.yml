@@ -777,7 +777,7 @@ tag_ui:
 rounded_corners_ui: true
 
 # Stretches the lines so that each line has equal width
-text_align_justify: false
+text_align_justify: true
 
 # Add a mask to the header and footer
 mask:
@@ -786,13 +786,13 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: css/flash.css
 
 # Page Transition
 enter_transitions: true
@@ -802,13 +802,13 @@ display_mode: light
 
 # Configuration for beautifying the content of the article
 beautify:
-  enable: false
+  enable: true
   # Specify the field to beautify (site or post)
   field: post
   # Specify the icon to be used as a prefix for the title, such as '\f0c1'
-  title_prefix_icon:
+  title_prefix_icon: '\f0c1'
   # Specify the color of the title prefix icon, such as '#F47466'
-  title_prefix_icon_color:
+  title_prefix_icon_color: '#F47466'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work
@@ -833,7 +833,7 @@ hr_icon:
 # Typewriter Effect
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true
   shake: true
   mobile: false
@@ -861,9 +861,9 @@ canvas_fluttering_ribbon:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true 
   # Color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
-  color: '0,0,255'
+  color: '255,106,136'
   # The opacity of line (0~1)
   opacity: 0.7
   # The z-index property of the background
@@ -880,16 +880,16 @@ fireworks:
 
 # Mouse click effects: Heart symbol
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words
 clickShowText:
-  enable: false
+  enable: true
   text:
-    # - I
-    # - LOVE
-    # - YOU
+    - 花斯卡~
+    - 火斯卡~
+    - 小花火~
   fontSize: 15px
   random: false
   mobile: false
@@ -902,7 +902,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # Leave it empty if you don't need lightbox
-lightbox:
+lightbox: fancybox
 
 # --------------------------------------
 # Tag Plugins settings
@@ -926,9 +926,9 @@ abcjs:
 # Mermaid
 # https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # Write Mermaid diagrams using code blocks
-  code_write: false
+  code_write: true
   # built-in themes: default / forest / dark / neutral
   theme:
     light: default
@@ -954,7 +954,7 @@ note:
 
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   # Exclude the specified pages from pjax, such as '/music/'
   exclude:
     # - /xxxxxx/
@@ -968,20 +968,20 @@ aplayerInject:
 # https://github.com/polonel/SnackBar
 # position: top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
   # The background color of Toast Notification in light mode and dark mode
-  bg_light: '#49b1f5'
+  bg_light: '#FF6A88'
   bg_dark: '#1f1f1f'
 
 # Instant.page
 # https://instant.page/
-instantpage: false
+instantpage: true
 
 # Pangu - Insert a space between Chinese character and English character
 # https://github.com/vinta/pangu.js
 pangu:
-  enable: false
+  enable: true
   # Specify the field to use pangu (site or post)
   field: site
 
